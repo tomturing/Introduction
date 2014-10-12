@@ -1,0 +1,57 @@
+.l2OverlayWrapper {
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.8;
+    background-color: #FFFFFF;
+    border: 1px solid #8C8C8C;
+    box-shadow: 0 0 10px #C8C8C8;
+    margin: 9px 0;
+    position: relative;
+    max-width: 300px;
+    _width: 300px;
+}
+.l2OverlayArrow {
+    position: absolute;
+    width: 16px;
+    height: 9px;
+    background: url("../images/arrow.png") no-repeat -50px 0px transparent;
+}
+.arrow-lt .l2OverlayArrow {
+    left: 15px;
+    top: -9px;
+}
+.arrow-rt .l2OverlayArrow {
+    right: 15px;
+    top: -9px;
+}
+.arrow-lb .l2OverlayArrow {
+    background-position: -17px 0;
+    left: 15px;
+    bottom: -9px;
+    _bottom: -15px;
+}
+.arrow-rb .l2OverlayArrow {
+    background-position: -17px 0;
+    right: 15px;
+    bottom: -9px;
+    _bottom: -15px;
+}
+.l2OverlayContent {
+    margin: 10px;
+}
+.l2Action {
+    padding: 0 10px;
+    margin: 10px -10px -10px;
+    background-color: #F2F2F2;
+    border-top: 1px solid #CCCCCC;
+    line-height: 34px;
+    height: 34px;
+}
+.l2Title{
+    border-bottom: 1px dotted #CCCCCC;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+
+
